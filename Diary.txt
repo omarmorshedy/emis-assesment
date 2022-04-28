@@ -1,0 +1,14 @@
+# Diary of development for Emis:
+
+- Started by setting up the image for containerising code.
+- Looked up Python docker images and copied one of them.
+- Set up requirments files to use it to install the requirments in the image.
+- I decided to use MYSQL as the database.
+- Tried to do that then realised it'd be easier to start with a plain Ubuntu Image.
+- Installed everything manually, including Pytho, MYSQL and other dependencies.
+- Tried to deal directly with JSON fiels using Pandas. Didn't work quit well
+- Looked up exactly FHIR standard which led to the FHIRY library.
+- Tried to use the FHIRY library to deserialise JSON data into usable format.
+- Didn't work in a format that would be usable.
+- Did more research on how to fix that. [linked in article]
+- Decided to switch from MYSQL to MongoDB.
